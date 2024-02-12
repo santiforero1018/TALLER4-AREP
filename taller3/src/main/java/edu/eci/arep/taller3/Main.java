@@ -31,6 +31,7 @@ public class Main {
                 return "/arsw.html";
             });
 
+            // adding arep service to the server
             WebServer.get("/arep", (m) -> {
                 return "/arep.html";
             });
