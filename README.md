@@ -37,7 +37,7 @@ http://localhost:35000/
 
 se vera el siguiente front retornado por el servidor:
 
-![imagen](https://github.com/santiforero1018/TALLER2-AREP/assets/88952698/fffc97a1-4f69-416a-a310-817fa74d559b)
+![imagen](README-resourcces/mainPage.png)
 
 Ahora, a la plataforma montada con java, se le puede solicitar cualquier servicio almacenado, para acceder a diferentes modulos.
 
@@ -60,6 +60,9 @@ con estos comandos, se vuelve a compilar el codigo y lo pone en ejecución, recu
 
 Inicialmente, el aplicativo iniciara con los servicios mostrados en la siguiente Imagen
 
+
+![pagina principal](README-resourcces/mainPage.png)
+
 ## PRUEBAS 
 
 1. Cuando se usa la URL `http://localhost:35000`, se realizan las siguientes peticiones al servidor
@@ -71,11 +74,15 @@ Inicialmente, el aplicativo iniciara con los servicios mostrados en la siguiente
 
 y mostrará la siguiente pagina:
 
+
+![pagina principal al entrar por dicha url](README-resourcces/mainPage.png)
+
+
 2. Cuando se realiza una petición para solicitar los datos de una pelicula, se realiza la siguiente petición
    - `/movieInfo.html`
 
   y saldra la información general de la pelicula 
-
+   ![consulta de una pelicula](README-resourcces/consultMovie.png)
 
 Las anteriores pruebas muestran como se retorna la primera parte para la consulta de peliculas. A continuación, se muestra como acceder a los diferentes servicios usando el path `/service`
 
@@ -83,13 +90,15 @@ Las anteriores pruebas muestran como se retorna la primera parte para la consult
    - petición de `/NotFound.html`
    - petición de `/design/notFound.css`
    - petición de `/IMG/5203299.jpg`
-    
+
+    ![Consulta mal realizada](README-resourcces/NotFound.png)
      
 3. Cuando se entra al servicio de `/service/arep`
    - petición de `/arep.html`
    - petición de `/design/arep.css`
    - petición de `/IMG/arep.jpg`
 
+   ![servicio de AREP](README-resourcces/arep-service.png)
 
      
 4. Cuando se entra al servicio de `/service/arep?message=labs`
@@ -97,20 +106,21 @@ Las anteriores pruebas muestran como se retorna la primera parte para la consult
    - petición de `/design/arep.css`
    - petición de `/IMG/arep.jpg`
 
-
+   ![servicio de AREP con query](README-resourcces/arep-service-query.png)
      
 5. Cuando se entra al servicio de `/service/arsw`
    - petición de `/arsw.html`
    - petición de `/design/arsw.css`
    - petición de `/IMG/ARSW.jpg`
 
-
+   ![servicio de AREP](README-resourcces/arsw-service.png)
      
 6. Cuando se entra al servicio de `/service/arsw?message=teorico`
    - petición de `/arsw.html`
    - petición de `/design/arsw.css`
    - petición de `/IMG/ARSW.jpg`
 
+   ![servicio de AREP con query](README-resourcces/arsw-service-query.png)
   
 
 Si desea ensayar otros mensajes a mostras en la pantalla de los servicios respectivos, puede usar la siguiente url:
