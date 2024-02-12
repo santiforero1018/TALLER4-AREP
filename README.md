@@ -61,7 +61,7 @@ con estos comandos, se vuelve a compilar el codigo y lo pone en ejecución, recu
 Inicialmente, el aplicativo iniciara con los servicios mostrados en la siguiente Imagen
 
 
-![pagina principal](README-resourcces/mainPage.png)
+![servicios del microframework](README-resourcces/services-java.png)
 
 ## PRUEBAS 
 
@@ -127,6 +127,26 @@ Si desea ensayar otros mensajes a mostras en la pantalla de los servicios respec
 
 `/service/{servicio}?message={mensaje}`
 
+### Pruebas con Linux
+
+Las mismas pruebas realizadas anteriormente se realizaron con el SO de Windows 11, ahora se haran usando una maquina virtual de Kali Linux
+
+1. Pagina principal de la consulta de peliculas
+
+   ![movie on Linux](README-resourcces/linux-proof/movieAPI-linux.png)
+   
+2. Pagina al consultar un servicio no existente o sin completar la ruta
+
+   ![Not found del path incompleto](README-resourcces/linux-proof/notFound-linux.png)
+   ![Not found del path incompleto](README-resourcces/linux-proof/notFound-linux(2).png)
+   
+4. Pagina al consultar el servicio de AREP
+
+   ![AREP service on linux](README-resourcces/linux-proof/AREP-module-linux.png)
+   
+5. Pagina al consultar el servicio de ARSW
+
+   ![AREP service on linux](README-resourcces/linux-proof/arswModule-linux.png)
 
 ## DESARROLLADO CON
 
