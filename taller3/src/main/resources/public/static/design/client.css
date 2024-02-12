@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    font-family: 'Jost', sans-serif;
+
+}
+
+title {
+    display: none;
+}
+
+body {
+    background-image: url("../IMG/imagen1.jpg");
+}
+
+form {
+    align-content: center;
+}
+
+form>label {
+
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+}
+
+.consulta {
+    display: flex;
+    flex-direction: row;
+}
+
+#nombre-pelicula {
+    margin-left: 6%;
+    width: 75%;
+    height: 30%;
+}
+
+#boton-consultar {
+    margin-left: 6%;
+    height: 30px;
+    width: 150px;
+    border-radius: 45%;
+    background-color: greenyellow;
+}
+
+#pelicula {
+    align-content: center;
+    text-decoration: antiquewhite;
+}

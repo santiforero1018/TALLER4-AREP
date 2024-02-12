@@ -1,0 +1,5 @@
+edu\eci\arep\taller3\Facade\WebServer.class
+edu\eci\arep\taller3\Main.class
+edu\eci\arep\taller3\service\WebService.class
+edu\eci\arep\taller3\Facade\APIRestFacade.class
+edu\eci\arep\taller3\Facade\Cache.class
