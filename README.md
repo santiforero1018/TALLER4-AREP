@@ -1,6 +1,6 @@
-# TALLER #3, MICROFRAMEWORK WEB
+# TALLER #4, ARQUITECTURAS DE SERVIDORES DE APLICACIONES, META PROTOCOLOS DE OBJETOS, PATRÓN IOC, REFLEXIÓN
 
-En este trabajo, se implementara un microframework web, un poco similar a spark, usando el trabajo realizado para la consulta de peliculas usando un servidor fachada
+Usando la implementación anterior de un microframework web, se procede a implementar  un framework IoC usando POJOS.
 
 ## PARA EMPEZAR
 
@@ -16,7 +16,7 @@ Se debe contar con un Sistema Operativo capaz de correr un IDE para poder realiz
 3. Al tenerlas, ejecutar el siguiente comando en la maquina
 
 ```bash
-git clone https://github.com/santiforero1018/TALLER3-AREP.git
+git clone https://github.com/santiforero1018/TALLER4-AREP.git
 ```
 
 ### JAVADOC
@@ -147,6 +147,28 @@ Las mismas pruebas realizadas anteriormente se realizaron con el SO de Windows 1
 5. Pagina al consultar el servicio de ARSW
 
    ![AREP service on linux](README-resourcces/linux-proof/arswModule-linux.png)
+
+## REFLEXION Y ANOTACIONES
+En la carpeta `/src/main/java/edu/eci/arep/taller4/annotations` se encuentran las anotaciones implementadas, a su vez, en la carpeta `/src/main/java/edu/eci/arep/taller4/framework` una clase la cual fue anotada con nuestras anotaciones.
+
+Además, se implemento un metodo dentro de `WebServer.java` para la lectura de la clase `HelloController.java`:
+
+![reflexion en java](README-resourcces/reflex-java.png)
+### Pruebas 
+usamos las siguientes URLs para realizar las pruebas correspondientes del funcionamiento de esta nueva implementación
+
+```bash
+http://localhost:35000/framework/hello
+http://localhost:35000/framework/message?msg=FOREMAN
+http://localhost:35000/framework/raiz?num=4
+```
+1. Mensaje estandar
+ ![hola](README-resourcces/proof-hello-fw.png)
+2. Mensaje personalizado
+![hola personal](README-resourcces/proof-msg-fw.png)
+3. Calculo
+![calculo](README-resourcces/proof-sqrt-fw.png)
+
 
 ## DESARROLLADO CON
 
