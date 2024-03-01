@@ -19,6 +19,8 @@ Se debe contar con un Sistema Operativo capaz de correr un IDE para poder realiz
 git clone https://github.com/santiforero1018/TALLER4-AREP.git
 ```
 
+luego moverse a la carpeta `taller4`
+
 ### JAVADOC
 Usando el siguiente comando: 
 ```
